@@ -1,4 +1,4 @@
-import challenges.Factorial;
+import metodos.Factorial;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;

@@ -1,4 +1,4 @@
-package challenges;
+package metodos;
 
 public class NumeroPar {
 

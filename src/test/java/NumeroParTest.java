@@ -1,4 +1,4 @@
-import challenges.NumeroPar;
+import metodos.NumeroPar;
 
 public class NumeroParTest {
 

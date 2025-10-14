@@ -1,6 +1,6 @@
 import org.junit.Test;
 
-import static challenges.QuickSort.quickSort;
+import static metodos.QuickSort.quickSort;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class QuickSortTest {

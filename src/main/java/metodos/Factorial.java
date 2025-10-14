@@ -1,4 +1,4 @@
-package challenges;
+package metodos;
 
 import java.util.stream.IntStream;
 
