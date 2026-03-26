@@ -1,4 +1,5 @@
-import metodos.Factorial;
+package recursion;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -10,18 +11,21 @@ public class FactorialTest {
         @Test
         public void factorialI(){
                 int resultado = factorial.factorialIterativo(3);
+                System.out.println("Factorial iterativo: " + resultado);
                 assertEquals(6, resultado);
         }
 
         @Test
         public void factorialR (){
               int resultado = factorial.factorialRecursivo(5);
+              System.out.println("Factorial recursivo: " + resultado);
               assertEquals(120, resultado);
         }
 
         @Test
         public void factorialS(){
                 int resultado = factorial.factorialStream(5);
+                System.out.println("Factorial stream: " + resultado);
                 assertEquals(120, resultado);
         }
 

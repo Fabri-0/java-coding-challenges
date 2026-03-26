@@ -1,6 +1,8 @@
+package sorting.arrays;
+
 import org.junit.Test;
 
-import static metodos.QuickSort.quickSort;
+import static sorting.arrays.QuickSort.quickSort;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 public class QuickSortTest {
